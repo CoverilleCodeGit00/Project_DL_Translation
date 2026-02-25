@@ -1,0 +1,29 @@
+# --- Environnement Virtuel ---
+venv_dl/
+
+# --- Données (Le plus important) ---
+# On ignore tout le contenu de data, mais on garde le dossier lui-même
+data/raw/*
+data/processed/*
+data/temp/*
+# On ne veut pas ignorer les fichiers .gitkeep si on veut garder la structure
+!data/**/.gitkeep
+
+# --- Modèles ---
+# Les poids des modèles (.pt, .pth, .bin, .h5) sont trop lourds
+models/*
+!models/.gitkeep
+
+# --- Sorties et Logs ---
+# On garde généralement les résultats légers (.srt, .csv) mais on ignore les vidéos
+outputs/*.mp4
+outputs/*.avi
+logs/
+
+# --- Système et IDE ---
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/

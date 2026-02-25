@@ -1,0 +1,28 @@
+# --- BASE DE CALCUL ET DEEP LEARNING ---
+torch>=2.0.0
+torchvision
+torchaudio
+# Note : Pour l'installation locale avec CUDA, réfère-toi à la commande pip spécifique plus bas.
+
+# --- HUGGING FACE ECOSYSTEM (ASR & NMT) ---
+transformers>=4.30.0  # Pour Whisper, MarianMT et NLLB
+datasets              # Pour charger et manipuler mTEDx
+accelerate            # Optimisation de la mémoire GPU (essentiel pour NLLB-200)
+evaluate              # Framework d'évaluation standard
+bitsandbytes          # Pour la quantification (permet de faire tourner de gros modèles sur ton GPU)
+
+# --- TRAITEMENT AUDIO ET SIGNAL ---
+librosa               # Analyse et transformation audio
+soundfile             # Lecture/Écriture de fichiers audio
+jiwer                 # Calcul du Word Error Rate (WER) pour l'ASR
+ffmpeg-python         # Interface Python pour extraire l'audio des vidéos
+
+# --- TOKENIZATION ET NLP ---
+sentencepiece         # Requis par les modèles Transformer (NLLB, Marian)
+sacremoses            # Requis par certains tokenizers de traduction
+tqdm                  # Barres de progression pour les entraînements
+
+# --- ANALYSE ET VISUALISATION ---
+pandas                # Manipulation des métadonnées (train.yaml)
+matplotlib            # Graphiques de performance
+scikit-learn          # Utilitaires statistiques
