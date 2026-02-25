@@ -25,12 +25,19 @@ Pour cloner et configurer l'environnement de développement :
 L'architecture logicielle est organisée de manière modulaire pour séparer les données, le code source et les expérimentations :
 
 data/ : Gestion des données (fichiers volumineux ignorés par Git).
+
 raw/ : Stockage des archives originales .tgz (mtedx_fr.tgz, etc.).
+
 processed/ : Index CSV générés et futurs segments audio extraits (16kHz).
+
 temp/ : Zone de transit pour les opérations d'extraction temporaires.
+
 src/ : Code source Python contenant les classes et fonctions modulaires.
+
 notebooks/ : Journaux d'expérimentation (Indexation, ASR, NMT).
+
 models/ : Répertoire de sauvegarde des poids des modèles entraînés (.pt).
+
 outputs/ : Résultats finaux (fichiers de sous-titres .SRT, rapports).
 
 Note : Les dossiers vides contiennent un fichier .gitkeep pour maintenir l'arborescence sur le dépôt distant sans inclure les fichiers lourds.
