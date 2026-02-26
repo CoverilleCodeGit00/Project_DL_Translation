@@ -17,7 +17,7 @@ models/*
 # --- Sorties et Logs ---
 # On garde généralement les résultats légers (.srt, .csv) mais on ignore les vidéos
 outputs/*
-logs/*
+logs/
 
 # --- Système et IDE ---
 .DS_Store
