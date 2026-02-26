@@ -16,6 +16,7 @@ librosa               # Analyse et transformation audio
 soundfile             # Lecture/Écriture de fichiers audio
 jiwer                 # Calcul du Word Error Rate (WER) pour l'ASR
 ffmpeg-python         # Interface Python pour extraire l'audio des vidéos
+pydub                  # Manipulation audio (découpage, conversion, etc.)
 
 # --- TOKENIZATION ET NLP ---
 sentencepiece         # Requis par les modèles Transformer (NLLB, Marian)
