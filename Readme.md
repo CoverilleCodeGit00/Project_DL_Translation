@@ -8,13 +8,16 @@ Pour cloner et configurer l'environnement de développement :
 
 1. **Clonage du dépôt** :
    git clone https://github.com/CoverilleCodeGit00/Project_DL_Translation.git
+   
    cd Projet_DL_Translation
 
 2. **Création de l'environnement virtuel :** :
     python -m venv venv_dl
 
 3. **Activation de l'environnement :** :
+    
     Windows : venv_dl\Scripts\activate
+    
     Linux/Mac : source venv_dl/bin/activate
 
 4. **Installation des dépendances** :
