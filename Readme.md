@@ -29,11 +29,11 @@ L'architecture logicielle est organisée de manière modulaire pour séparer les
 
 data/ : Gestion des données (fichiers volumineux ignorés par Git).
 
-raw/ : Stockage des archives originales .tgz (mtedx_fr.tgz, etc.).
+    raw/ : Stockage des archives originales .tgz (mtedx_fr.tgz, etc.).
 
-processed/ : Index CSV générés et futurs segments audio extraits (16kHz).
+    processed/ : Index CSV générés et futurs segments audio extraits (16kHz).
 
-temp/ : Zone de transit pour les opérations d'extraction temporaires.
+    temp/ : Zone de transit pour les opérations d'extraction temporaires.
 
 src/ : Code source Python contenant les classes et fonctions modulaires.
 
