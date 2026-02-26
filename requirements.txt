@@ -27,3 +27,6 @@ tqdm                  # Barres de progression pour les entraînements
 pandas                # Manipulation des métadonnées (train.yaml)
 matplotlib            # Graphiques de performance
 scikit-learn          # Utilitaires statistiques
+
+# --- TRANSCRIPTION ET ASR ---
+openai-whisper       # Modèle ASR de pointe (si tu veux tester Whisper en local, mais attention à la VRAM nécessaire)
