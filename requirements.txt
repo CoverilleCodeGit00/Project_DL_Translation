@@ -30,3 +30,7 @@ scikit-learn          # Utilitaires statistiques
 
 # --- TRANSCRIPTION ET ASR ---
 openai-whisper       # Modèle ASR de pointe (si tu veux tester Whisper en local, mais attention à la VRAM nécessaire)
+
+
+sacrebleu              # Calcul du BLEU score pour l'évaluation de la traduction
+nltk.translate.meteor_score # Calcul du METEOR score pour l'évaluation de la traduction
